@@ -1,0 +1,9 @@
+<form class="form-signin" role="form" ng-submit="login()">
+    <h2 class="form-signin-heading">Log In</h2>
+    <div class="alert alert-danger bs-alert-old-docs" ng-show="error">
+        <strong>{{error}}</strong>
+    </div>
+    <input id="usernameInput" type="text" class="form-control" placeholder="Username" required autofocus ng-model="username">
+    <input id="passwordInput" type="password" class="form-control" placeholder="Password" required>
+    <button id="logInButton" class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
+</form>

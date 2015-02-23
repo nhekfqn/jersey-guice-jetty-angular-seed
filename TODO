@@ -1,0 +1,6 @@
+aop authentication
+functional tests
+end-to-end tests
+unit tests
+bean validation
+remember url before tokenLogin and redirect after successfull login (if tokenLogin fails)

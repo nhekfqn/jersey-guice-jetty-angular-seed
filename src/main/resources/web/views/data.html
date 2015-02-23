@@ -1,0 +1,15 @@
+<h1>Data</h1>
+
+<div class="alert alert-danger bs-alert-old-docs" ng-show="error">
+    <strong>{{error}}</strong>
+</div>
+
+<div ng-show="state == 'loading'">
+    Loading...
+</div>
+
+<div ng-show="state == 'view' || state == 'saving'">
+    Product: <input type="text" ng-model="data.product"><br/>
+    Amount: <input type="text" ng-model="data.amount"><br/>
+    <button class="btn btn-lg btn-primary" ng-click="save()" ng-disabled="state != 'view'">{{state == 'saving' ? 'Saving...' : 'Save'}}</button>
+</div>

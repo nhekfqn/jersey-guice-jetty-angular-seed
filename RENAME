@@ -1,0 +1,7 @@
+web/css/app.css: file name
+web/index.html: <title>Application</title>
+web/js/app.js: "app-auth-token"
+pom.xml: <groupId>com.nhekfqn.seed.jerseyangular</groupId>
+pom.xml: <artifactId>jersey-guice-jetty-angular-seed</artifactId>
+src/main/java: com.nhekfqn.seed.jerseyangular (rename package in IDE to update folder names and all .java files)
+web/js/app.js: localStorageServiceProvider.setPrefix("app");

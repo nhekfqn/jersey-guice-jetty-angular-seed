@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="alert alert-danger bs-alert-old-docs" ng-show="serverError">
+        <button type="button" class="close alert-close-button" ng-click="closeServerErrorAlert()">&times;</button>
+        {{serverError}}
+    </div>
+
+    <div ui-view></div>
+</div>
